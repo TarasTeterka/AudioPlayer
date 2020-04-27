@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.audioPlayer {
+    width: 250px;
+    height: 150px;
+    margin-top: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.pauseButton {
+    display: none;
+}
+
+i {
+    border-radius: 50%;
+}
+
+i:hover {
+    background-color: rgb(221, 216, 216);
+}
